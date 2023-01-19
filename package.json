@@ -1,0 +1,19 @@
+{
+  "name": "server-nova-inside",
+  "version": "1.0.0",
+  "description": "Servidor para Nova-Inside, aplicación de IDentiKIT app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianFloresDev/Nova-Inside-Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulianFloresDev/Nova-Inside-Server/issues"
+  },
+  "homepage": "https://github.com/JulianFloresDev/Nova-Inside-Server#readme"
+}
