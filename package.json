@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Servidor para Nova-Inside, aplicación de IDentiKIT app",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev": "nodemon ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,18 @@
   "bugs": {
     "url": "https://github.com/JulianFloresDev/Nova-Inside-Server/issues"
   },
-  "homepage": "https://github.com/JulianFloresDev/Nova-Inside-Server#readme"
+  "homepage": "https://github.com/JulianFloresDev/Nova-Inside-Server#readme",
+  "engines": {
+    "node": "14.x"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.20"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.0.3",
+    "express": "4.18.2",
+    "firebase-admin": "11.5.0",
+    "mongoose": "6.9.0"
+  }
 }
